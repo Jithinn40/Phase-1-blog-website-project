@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>article1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" >
+</head>
+<body>
+    <nav class='py-1'>
+        <a href="mainpage.html"><img src="images/newslogo.jpg"></a>
+        <div class="nav-links" id="navLinks">              
+            <i class="fa fa-times"onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="mainpage.html">HOME</a></li>
+                <li><a href="mainpage.html #article">ARTICLES</a></li>
+                <li><a href="writesec.html">WRITE</a></li>
+                <li><a href="writesec.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+    </nav>
+    <section class="blog">
+        <div class="article1">
+            <div class="blog-col">
+                <h2>Jellyfish introduces Life Cycle Explorer to fight software development bottlenecks</h2>
+                <img src="images/jf art1.jpg">
+                <p style="font-family:rgb(238, 238, 238) Hat Display,sans-serif;font-size: 20px;text-align: justify">
+                    Jellyfish, the engineering management platform, today announced Life Cycle Explorer, a solution that works to detect bottlenecks in the life cycle of engineering work in order to help teams adapt workflow processes.
+                    The team stated that this release allows users to dig deeper into their processes to reveal the root cause of process breakdowns so teams can investigate and mitigate their impact as they move forward.
+                    It does this by tracking issues through Jira workflows and categorizing the work effort as either refinement, work, review, or deployment. Life Cycle Explorer also calculates the amount of time an issue is in each workflow stage, visually maps the process, and identifies performance trends as time goes on.
+                    “Modern software development teams and their leaders have no easy way to visualize, break down, and understand their development life cycles,” said Krishna Kannan, head of product at Jellyfish. “With Life Cycle Explorer, teams can now identify and remediate bottlenecks, unlock process obstacles, and improve trends through the full life cycle of software development. Jellyfish is helping engineering leaders go beyond metrics to gain a complete understanding of each opportunity they have to improve team performance.”
+                    According to Jellyfish, the visualizations this release provides allows users to identify gaps when issues are sitting still, see where work areas overlap, and learn how outliers could be affecting the overall project lifecycle. 
+                </p>
+            </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

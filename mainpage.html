@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Simplinews</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" >
+</head>
+<body class="bg-light"> 
+    <!-- Main page -->
+    <section>
+        <nav class='py-1'>
+            <a href="mainpage.html"><img src="images/newslogo.jpg"></a>
+            <div class="nav-links" id="navLinks">              
+                <i class="fa fa-times"onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="mainpage.html">HOME</a></li>
+                    <li><a href="#article">ARTICLES</a></li>
+                    <li><a href="writesec.html">WRITE</a></li>
+                    <li><a href="writesec.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+    
+    <div class="container-fluid px-0">
+        <img id="mainimg"src="images/bgyellow.jpg" alt="" class="d-block w-100 img-fluid">
+            <div class="carousel-caption d-md-block">
+                <h5 class="display-4 text-uppercase">Ahead in time<br>ahead of the times </h5>
+                    <div >
+                         <p class="text-center lead"> Your one stop shop for all your news</p>
+                         
+                    </div>
+            </div>          
+    </div>
+    </section>
+    <!--End of Main page -->
+
+    <!-- Article page -->
+    <section id="article">
+        <div class="container">
+            <div class="text-center">
+                <h2>ARTICLES FOR YOU</h2>
+            </div>
+            
+            <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card mb-5 shadow-sm">
+                    <img src="images/jf art1.jpg" class="img-fluid">
+                    <div class="card-body">
+                        <div class="card-title">
+                        <h4>Jellyfish introduces Life Cycle Explorer to fight software development bottlenecks</h4>
+                        </div>
+                        <div class="card-text">
+                        <p>
+                            Jellyfish, the engineering management platform, today announced Life Cycle Explorer, a solution that works
+                            to detect bottlenecks...
+                        </p>
+                        </div>
+                        <a href="articlepg1.html"  class="btn btn-outline-dark rounded-10 float-end">Read More</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card mb-5 shadow-sm">
+                <img src="images/art2.jpg" class="img-fluid">
+                <div class="card-body">
+                    <div class="card-title">
+                    <h4>Confluent announces new capabilities to build a shared service platform for data streaming</h4>
+                    </div>
+                    <div class="card-text">
+                    <p>
+                        Data streaming services provider Confluent today announced updates made to Confluent Cloud geared at 
+                        assisting organizations in building a secured shared services platform for data streaming....
+                    </p>
+                    </div>
+                    <a href="article2.html" class="btn btn-outline-dark rounded-10 float-end">Read More</a>
+                </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card mb-5 shadow-sm">
+                <img src="images/art3.jpg" class="img-fluid" />
+    
+                <div class="card-body">
+                    <div class="card-title">
+                    <h4>New Relic introduces new capability for change tracking observability</h4>
+                    </div>
+                    <div class="card-text">
+                    <p>
+                        The observability provider New Relic has announced the launch of a new change tracking solution to provide 
+                        full visibility of change events throughout an application’s life cycle....
+                    </p>
+                    </div>
+                    <a href="article3.html" class="btn btn-outline-dark rounded-10 float-end">Read More</a>
+                </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card mb-5 shadow-sm">
+                <img src="images/art4.jpg" class="img-fluid" />
+    
+                <div class="card-body">
+                    <div class="card-title">
+                    <h4>Apple announces upcoming tax and price changes for apps and in-app purchases</h4>
+                    </div>
+                    <div class="card-text">
+                    <p>
+                        Apple recently announced that there will be changes made to the App Store’s commerce and payment system. 
+                        These changes will be made based on changes in certain regions’ taxes and foreign exchange rates....
+                    </p>
+                    </div>
+                    <a href="article4.html" class="btn btn-outline-dark rounded-10 float-end">Read More</a>
+                </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card mb-5 shadow-sm">
+                <img src="images/api.jpg" class="img-fluid" />
+    
+                <div class="card-body">
+                    <div class="card-title">
+                    <h4>Time to hide your API</h4>
+                    </div>
+                    <div class="card-text">
+                    <p>
+                        The need for robust API security is growing rapidly in response to the increasing 
+                        dependence of organizations on APIs for their digital operations.With 70% of respondents to a report expecting to use more APIs in 2023 than last year, this presents a heightened challenge for API security, 
+                        which only comprises about 4% of the testing efforts at organizations today.  ...
+                    </p>
+                    </div>
+                    <a href="article5.html" class="btn btn-outline-dark rounded-10 float-end">Read More</a>
+                    
+                </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card mb-5 shadow-sm">
+                <img src="images/art6.jpg" class="img-fluid" />
+    
+                <div class="card-body">
+                    <div class="card-title">
+                    <h4>Eliminating environment concerns in mobile application testing</h4>
+                    </div>
+                    <div class="card-text">
+                    <p>
+                        Test environments can be a frustrating bottleneck to the testing process and the software development life cycle 
+                        as a whole. Whether it be unavailable services, devices, or ever-elusive test data, ensuring the right environment 
+                        for testing creates potential for barriers 
+                        to shifting left at speed, and cutting corners can put application quality and your business at risk. ...
+                    </p>
+                    </div>
+                    <a href="article6.html" class="btn btn-outline-dark rounded-10 float-end">Read More</a>
+                    
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+        <!--End of article page  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

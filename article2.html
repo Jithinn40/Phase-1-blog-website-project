@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>article2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" >
+</head>
+<body>
+    <nav class='py-1'>
+        <a href="mainpage.html"><img src="images/newslogo.jpg"></a>
+        <div class="nav-links" id="navLinks">              
+            <i class="fa fa-times"onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="mainpage.html">HOME</a></li>
+                <li><a href="mainpage.html #article">ARTICLES</a></li>
+                <li><a href="writesec.html">WRITE</a></li>
+                <li><a href="writesec.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+    </nav>
+    <section class="blog">
+        <div class="article2">
+            <div class="blog-col">
+                <h2>Confluent announces new capabilities to build a shared service platform for data streaming</h2>
+                <img src="images/art2.jpg">
+                <p style="font-family:Red Hat Display,sans-serif;font-size: 20px;text-align: justify">
+                    Data streaming services provider Confluent today announced updates made to Confluent Cloud geared at assisting organizations in building a secured shared services platform for data streaming. 
+                    According to the company, the shared services architectural model is especially helpful today, as businesses tighten their budgets and new competition emerges almost constantly.
+                    Confluent has added OAuth support, Cloud Client Quotas, and expanded Role-Based Access Controls (RBAC) in order to offer businesses access to real-time innovations and heightened access to data streaming.
+                    The company stated that with support for OAuth, the operation burden of scaling workloads is reduced with centralized identity management.Additionally, New Client Quotas work to protect individual application performance with could-native resource utilization controls. Lastly, enhanced RBAC is now available for Confluent Cloud resources to offer compliance, confidentiality, and privacy.
+                    “This year, many businesses are in a tough spot where resources are tight, but expectations for real-time experiences and operations remain high,” said Shaun Clowes, chief product officer at Confluent. “This release helps organizations connect and stream data from across their business in the most cost-effective and safest way possible. A secure, shared services platform for data streaming saves valuable time and resources while ensuring data and applications are safe and easily accessible across clouds.”
+                    According to Confluent, this release simplifies the process of implementing a shared services model by offering identity management integrations, stronger access controls, and resource utilization controls.        </p>
+            </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

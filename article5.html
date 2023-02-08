@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>article5</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" >
+</head>
+<body>
+    <nav class='py-1'>
+        <a href="mainpage.html"><img src="images/newslogo.jpg"></a>
+        <div class="nav-links" id="navLinks">              
+            <i class="fa fa-times"onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="mainpage.html">HOME</a></li>
+                <li><a href="mainpage.html #article">ARTICLES</a></li>
+                <li><a href="writesec.html">WRITE</a></li>
+                <li><a href="writesec.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+    </nav>
+    <section class="blog">
+        <div class="article2">
+            <div class="blog-col">
+                <h2>Time to hide your API</h2>
+                <img src="images/api.jpg">
+                <p style="font-family:Red Hat Display,sans-serif;font-size: 20px;text-align: justify">
+                    The need for robust API security is growing rapidly in response to the increasing dependence of organizations on APIs for their digital operations. 
+                    With 70% of respondents to a report expecting to use more APIs in 2023 than last year, this presents a heightened challenge for API security, which only comprises about 4% of the testing efforts at organizations today.   
+                    The 4th annual State of the APIs Report collected insights from more than 850 global developers, engineers, and leaders from across the technology community spanning over 100 countries including the US, the UK, Germany, and India.                
+                    The increased API usage is especially prominent in telecommunications, which is projected to rise to 72%, up from 59% last year. This is followed by smaller, yet still considerable, increases in the fields of technology and professional services.                     
+                    Mark O’Neill, VP analyst, and chief of research for software engineering at Gartner, correctly predicted in 2021 that by this year, API breaches would be the number one threat vector for web applications.                     
+                    “Part of the reason for that is because with mobile and web apps, along with any other type of modern application that you’re using, it all involves the use of APIs,” O’Neill said.                     
+                    Gartner research has estimated that by 2025, fewer than half of enterprise APIs will be managed, as explosive growth in APIs surpasses the capabilities of API management tools and “security controls try to apply old paradigms to new problems.”                    
+                    This vast number of APIs floating around the organization is further complicated by multiple teams building and managing APIs all while using different cloud platforms and frameworks, according to O’Neill.                     
+                    “When you have different platforms where your teams are building and deploying APIs, there’s no one place to put the gateway, which is a problem for traditional API management solutions,” O’Neill said.                     
+                    To secure this wide API landscape, many companies have put up multiple gateways, which means that now there are more gateways in front of APIs, but it created a new problem of learning how to manage all of these gateways together.                     
+                    “Many clients have asked us for a federated solution that would work across different API gateways and allow teams to have a single picture of their API traffic and to have a single control plane for management and security, but at the moment, that is a gap in the market,” O’Neill said.                     
+                    A single federated solution would allow users to set up authentication and authorization schemes across different APIs, ensuring that only the right users have access to the right resources. It also enables administrators to set up rate limiting and other security measures, such as IP white/blacklisting, to protect against malicious attacks.                     
+                    With such a solution, teams would also gain visibility into API performance and usage, allowing teams to identify and address potential security issues quickly.                </p>
+            </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
